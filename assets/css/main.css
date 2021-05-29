@@ -2608,17 +2608,36 @@ body > article {
   line-height: 35px;
 }
 
-#idealJobsTable, #idealJobsTable td, #idealJobsTable th{
+#idealJobsTable,
+#idealJobsTable td,
+#idealJobsTable th {
   border: black 1px solid;
   text-align: left;
   background-color: white;
 }
 
-#idealJobsTable td{
+#idealJobsTable td {
   padding: 13px;
 }
 
 #idealJobsTable th {
   font-weight: bold;
   text-align: center;
+}
+
+.projectDescriptionContent * {
+  line-height: 28px;
+  text-align: left;
+}
+
+.projectDescriptionContent h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.projectDescriptionContent h2 {
+  font-size: 25px;
+  margin-top: 25px;
 }
