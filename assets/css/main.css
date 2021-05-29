@@ -2641,3 +2641,12 @@ body > article {
   font-size: 25px;
   margin-top: 25px;
 }
+
+.projectDescriptionContent p {
+  margin-bottom: 15px;
+}
+
+.projectDescriptionContent h3 {
+  font-size: 15px;
+  margin-top: 15px;
+}
